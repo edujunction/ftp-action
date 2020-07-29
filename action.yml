@@ -1,5 +1,5 @@
-name: 'ftp-action'
-author: 'Sebastian Popp <ftp-action@sebastianpopp.com>'
+name: 'ftp-upload-action'
+author: 'Tim Bernhard <ftp-action@genieblog.ch>'
 description: 'Automate copying your files via FTP using this GitHub action.'
 inputs:
   host:
