@@ -4,8 +4,7 @@ WORKDIR /
 
 COPY LICENSE README.md /
 
-RUN apk --no-cache add \
-    lftp=4.8.4-r2
+RUN apk --no-cache add lftp
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
