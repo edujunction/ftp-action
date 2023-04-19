@@ -17,11 +17,11 @@ inputs:
     default: 'false'
   localDir:
     description: 'Local directory'
-    required: false
+    required: true
     default: '.'
   remoteDir:
     description: 'Remote directory'
-    required: false
+    required: true
     default: '.'
 runs:
   using: 'docker'
